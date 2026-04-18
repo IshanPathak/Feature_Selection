@@ -1,77 +1,73 @@
 # Feature Selection for Imbalanced Network Intrusion Detection Systems Dataset Using Quantum Annealer
 
-Research codebase for feature selection on an imbalanced network-intrusion style dataset, using a **QUBO / quantum-annealing** style formulation (IBM Quantum backends via Qiskit) alongside classical preprocessing and evaluation.
+Research codebase for feature selection on an **imbalanced** network-intrusion-style dataset: classical preprocessing and scoring, then a **QUBO** formulation optimized with **IBM Quantum** (Qiskit) to select features, with optional hyperparameter **grid search**.
 
 ---
 
-## What belongs on GitHub (required vs optional)
+## Full guide (process · run · code)
 
-This repository is meant to hold **what is needed to understand and reproduce the method**, not multi‑gigabyte raw captures or local-only PDFs.
+**Read this first for step-by-step process, how to run the notebook, and how to reuse paths/code:**
 
-| Required on the repo | Purpose |
-|----------------------|---------|
-| **`README.md`** (this file) | Project title, setup, scope |
-| **`requirements.txt`** | Python dependencies |
-| **`.env.example`** | Shows `IBM_QUANTUM_TOKEN` only — never commit real tokens |
-| **`repo_paths.py`** | Paths for `data/` and `results/`; `FS_PROFILE` for default vs workstation outputs |
-| **`notebooks/FS.ipynb`** | **Main** end-to-end notebook (run the first cell first) |
-| **`data/features/*.csv`** | Small artifacts: MI, PI, top‑25 features, correlation summaries used to build the QUBO |
-| **`results/qubo/*`** | Built QUBO matrix and metadata (non‑`*-Workstation*` names for the default profile) |
-| **`results/grid_search/*`** | Grid search state, results CSV, summaries (default profile) |
-
-| Optional / secondary | Purpose |
-|---------------------|---------|
-| **`notebooks/FS-Workstation.ipynb`** | Same pipeline with `FS_PROFILE=workstation` so outputs use `*-Workstation.*` and do not overwrite lab runs |
-| **`results/*-Workstation.*`** | Extra runs from another machine |
-| **`docs/GIT_WORKFLOW.md`**, **`docs/README_CSV_Splitter.md`** | Tooling notes |
-| **`scripts/restructure_project.py`** | One-time folder layout helper |
-
-| Not in Git (by design — large or private) | |
-|------------------------------------------|---|
-| **`data/raw/`**, **`data/processed/`** large CSVs | Listed in `.gitignore`; obtain or regenerate locally |
-| **`Documents/Refrences/`**, conference PDFs/DOCX/PPTX | Local copies only unless you add [Git LFS](https://git-lfs.github.com/) |
-| **`Documents/PCAP/`** | Packet captures — too large for normal Git |
-
-If you want the GitHub **repository description** line, use something like:  
-*Feature selection for imbalanced NIDS data using a quantum annealer / QUBO formulation (Qiskit).*
+### [docs/USAGE_AND_PROCESS.md](docs/USAGE_AND_PROCESS.md)
 
 ---
 
-## Layout (short)
+## Quick start
 
-| Path | Role |
+1. **Clone** this repository.
+2. **Python environment** (from repo root):
+
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+3. **IBM Quantum token** — set `IBM_QUANTUM_TOKEN` (see `.env.example`). Never commit secrets.
+4. **Large data** — place or generate `data/raw/` and `data/processed/` files locally (they are gitignored). See the usage doc for filenames.
+5. Open **`notebooks/FS.ipynb`**, run the **first cell** (bootstrap), then run **cells in order**.
+
+---
+
+## What’s in this repository
+
+| Item | Role |
 |------|------|
-| `data/raw/` | Merged inputs (local only unless you change `.gitignore`) |
-| `data/processed/` | Enhanced / augmented / `complex_imbalanced_80k.csv` (local) |
-| `data/features/` | Scores and top‑25 tables used for QUBO construction (tracked) |
-| `results/qubo/` | QUBO matrix + metadata |
-| `results/grid_search/` | Hyperparameter search outputs |
-| `results/checkpoints/` | Optional `.pkl` checkpoints |
+| [docs/USAGE_AND_PROCESS.md](docs/USAGE_AND_PROCESS.md) | **Process, run instructions, how to use `repo_paths` and profiles** |
+| [repo_paths.py](repo_paths.py) | Central paths for `data/` and `results/`; `FS_PROFILE` switches default vs workstation outputs |
+| [notebooks/FS.ipynb](notebooks/FS.ipynb) | **Main** pipeline (profile: default) |
+| [notebooks/FS-Workstation.ipynb](notebooks/FS-Workstation.ipynb) | Same pipeline; `FS_PROFILE=workstation` → `*-Workstation.*` files |
+| [requirements.txt](requirements.txt) | Python dependencies |
+| [`.env.example`](.env.example) | Example env var for IBM token only |
+| `data/features/`, `results/` | Small/medium artifacts (when committed); large CSVs stay local — see [.gitignore](.gitignore) |
+
+**Git how-to:** [docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md)
 
 ---
 
-## Setup
+## Connect this folder to GitHub (after a clean slate)
+
+If you removed the old remote or repo, from the project folder:
 
 ```powershell
-cd "path\to\Feature Selection"
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install -r requirements.txt
+cd "C:\Users\ishan\OneDrive\Desktop\GRA\Feature Selection"
+git init
+git add .
+git commit -m "Initial commit: quantum feature selection pipeline and docs"
+git branch -M main
+git remote add origin https://github.com/YOUR_USER/YOUR_REPO.git
+git push -u origin main
 ```
 
-Copy `.env.example` to `.env` (or set env vars) and set **`IBM_QUANTUM_TOKEN`** for IBM Quantum access.
+If the repo already exists and only `origin` is missing:
 
-## Run
+```powershell
+git remote add origin https://github.com/YOUR_USER/YOUR_REPO.git
+git push -u origin main
+```
 
-1. Open the project root in Jupyter / VS Code / Cursor.
-2. Open **`notebooks/FS.ipynb`** and run the **first code cell** (bootstrap: `repo_paths`, working directory).
-3. Run the rest of the notebook in order.
+---
 
-## Restructure script
+## Suggested GitHub “About” description
 
-To replay folder moves after a fresh clone (if you still use the helper):  
-`python scripts/restructure_project.py`
-
-## Git
-
-Daily workflow: **[docs/GIT_WORKFLOW.md](docs/GIT_WORKFLOW.md)**
+*Feature selection for imbalanced NIDS data using a QUBO / quantum annealer formulation (Qiskit, IBM Quantum).*
