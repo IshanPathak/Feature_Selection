@@ -125,3 +125,22 @@ git push -u origin experiment/grid-tweak
 - **Committed a secret by mistake**: Revoke the key on the provider (e.g. IBM Quantum), remove the file from history or use GitHub guidance for removing sensitive data, then rotate keys.  
 - **Push rejected**: Run `git pull --rebase origin main` then `git push` (or resolve conflicts as prompted).  
 - **Wrong remote URL**: `git remote set-url origin https://github.com/YOUR_USER/YOUR_REPO.git`
+
+---
+
+## After deleting the repo on GitHub (fresh remote)
+
+Your **local** commits stay until you delete the `.git` folder. To point this folder at a **new** empty GitHub repository:
+
+1. On GitHub: **New repository** (no README if you already have one locally).
+2. In PowerShell:
+
+```powershell
+cd "C:\Users\ishan\OneDrive\Desktop\GRA\Feature Selection"
+git remote remove origin
+git remote add origin https://github.com/YOUR_USER/YOUR_NEW_REPO.git
+git branch -M main
+git push -u origin main
+```
+
+If `git remote remove origin` errors (no remote yet), skip that line and only run `git remote add origin ...` then `git push -u origin main`.
