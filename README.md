@@ -1,5 +1,7 @@
 # Feature Selection for Imbalanced Network Intrusion Detection Systems Dataset Using Quantum Annealer
 
+**Repository:** [github.com/IshanPathak/Feature_Selection](https://github.com/IshanPathak/Feature_Selection)
+
 Research codebase for feature selection on an **imbalanced** network-intrusion-style dataset: classical preprocessing and scoring, then a **QUBO** formulation optimized with **IBM Quantum** (Qiskit) to select features, with optional hyperparameter **grid search**.
 
 ---
