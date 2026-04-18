@@ -1,0 +1,133 @@
+GRID SEARCH SUMMARY REPORT
+==================================================
+Generated: 2025-06-27 10:30:06
+
+PROGRESS:
+  Total combinations: 135
+  Completed: 115
+  Remaining: 20
+  Progress: 85.2%
+
+BEST RESULT:
+  Accuracy: 0.9731
+  F1 Score: 0.9724
+  Parameters: k=10, lambda=0.5, mu=0.3, gamma=0.05
+  Backend: ibm_brisbane
+  Total Time: 977.2 seconds
+
+ALL RESULTS:
+  1. k=6, lambda=0.5, mu=0.3, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=195.2s | ibm_sherbrooke
+  2. k=6, lambda=0.5, mu=0.3, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=187.8s | ibm_sherbrooke
+  3. k=6, lambda=0.5, mu=0.3, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=189.9s | ibm_sherbrooke
+  4. k=6, lambda=0.5, mu=0.5, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=194.4s | ibm_sherbrooke
+  5. k=6, lambda=0.5, mu=0.5, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=189.7s | ibm_sherbrooke
+  6. k=6, lambda=0.5, mu=0.5, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=195.4s | ibm_sherbrooke
+  7. k=6, lambda=0.5, mu=0.7, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=215.3s | ibm_brisbane
+  8. k=6, lambda=0.5, mu=0.7, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=190.8s | ibm_sherbrooke
+  9. k=6, lambda=0.5, mu=0.7, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=181.5s | ibm_brisbane
+  10. k=6, lambda=1.0, mu=0.3, gamma=0.05 | Acc=0.8964, F1=0.8623 | Time=123.5s | ibm_sherbrooke
+  11. k=6, lambda=1.0, mu=0.3, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=189.8s | ibm_sherbrooke
+  12. k=6, lambda=1.0, mu=0.3, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=196.2s | ibm_sherbrooke
+  13. k=6, lambda=1.0, mu=0.5, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=236.1s | ibm_sherbrooke
+  14. k=6, lambda=1.0, mu=0.5, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=192.0s | ibm_sherbrooke
+  15. k=6, lambda=1.0, mu=0.5, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=2034.1s | ibm_brisbane
+  16. k=6, lambda=1.0, mu=0.7, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=1978.8s | ibm_sherbrooke
+  17. k=6, lambda=1.0, mu=0.7, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=1983.7s | ibm_sherbrooke
+  18. k=6, lambda=1.0, mu=0.7, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=2107.1s | ibm_sherbrooke
+  19. k=6, lambda=1.5, mu=0.3, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=766.8s | ibm_brisbane
+  20. k=6, lambda=1.5, mu=0.3, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=330.1s | ibm_brisbane
+  21. k=6, lambda=1.5, mu=0.3, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=277.3s | ibm_brisbane
+  22. k=6, lambda=1.5, mu=0.5, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=936.3s | ibm_brisbane
+  23. k=6, lambda=1.5, mu=0.5, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=1355.1s | ibm_brisbane
+  24. k=6, lambda=1.5, mu=0.5, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=1192.7s | ibm_brisbane
+  25. k=6, lambda=1.5, mu=0.7, gamma=0.05 | Acc=0.8438, F1=0.8453 | Time=2029.0s | ibm_sherbrooke
+  26. k=6, lambda=1.5, mu=0.7, gamma=0.1 | Acc=0.8438, F1=0.8453 | Time=2132.5s | ibm_sherbrooke
+  27. k=6, lambda=1.5, mu=0.7, gamma=0.15 | Acc=0.8438, F1=0.8453 | Time=254.9s | ibm_sherbrooke
+  28. k=7, lambda=0.5, mu=0.3, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=195.2s | ibm_sherbrooke
+  29. k=7, lambda=0.5, mu=0.3, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=240.0s | ibm_brisbane
+  30. k=7, lambda=0.5, mu=0.3, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=208.2s | ibm_sherbrooke
+  31. k=7, lambda=0.5, mu=0.5, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=208.8s | ibm_sherbrooke
+  32. k=7, lambda=0.5, mu=0.5, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=215.7s | ibm_sherbrooke
+  33. k=7, lambda=0.5, mu=0.5, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=206.1s | ibm_sherbrooke
+  34. k=7, lambda=0.5, mu=0.7, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=154.8s | ibm_sherbrooke
+  35. k=7, lambda=0.5, mu=0.7, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=1006.3s | ibm_sherbrooke
+  36. k=7, lambda=0.5, mu=0.7, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=995.5s | ibm_sherbrooke
+  37. k=7, lambda=1.0, mu=0.3, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=241.9s | ibm_sherbrooke
+  38. k=7, lambda=1.0, mu=0.3, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=328.7s | ibm_brisbane
+  39. k=7, lambda=1.0, mu=0.3, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=208.8s | ibm_sherbrooke
+  40. k=7, lambda=1.0, mu=0.5, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=258.4s | ibm_sherbrooke
+  41. k=7, lambda=1.0, mu=0.5, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=200.1s | ibm_brisbane
+  42. k=7, lambda=1.0, mu=0.5, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=458.2s | ibm_sherbrooke
+  43. k=7, lambda=1.0, mu=0.7, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=1465.1s | ibm_sherbrooke
+  44. k=7, lambda=1.0, mu=0.7, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=211.4s | ibm_sherbrooke
+  45. k=7, lambda=1.0, mu=0.7, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=250.7s | ibm_brisbane
+  46. k=7, lambda=1.5, mu=0.3, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=264.7s | ibm_sherbrooke
+  47. k=7, lambda=1.5, mu=0.3, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=272.1s | ibm_sherbrooke
+  48. k=7, lambda=1.5, mu=0.3, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=350.5s | ibm_sherbrooke
+  49. k=7, lambda=1.5, mu=0.5, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=241.8s | ibm_brisbane
+  50. k=7, lambda=1.5, mu=0.5, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=249.7s | ibm_brisbane
+  51. k=7, lambda=1.5, mu=0.5, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=261.4s | ibm_sherbrooke
+  52. k=7, lambda=1.5, mu=0.7, gamma=0.05 | Acc=0.8987, F1=0.8846 | Time=291.8s | ibm_brisbane
+  53. k=7, lambda=1.5, mu=0.7, gamma=0.1 | Acc=0.8987, F1=0.8846 | Time=489.4s | ibm_brisbane
+  54. k=7, lambda=1.5, mu=0.7, gamma=0.15 | Acc=0.8987, F1=0.8846 | Time=262.0s | ibm_brisbane
+  55. k=8, lambda=0.5, mu=0.3, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=288.7s | ibm_brisbane
+  56. k=8, lambda=0.5, mu=0.3, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=286.3s | ibm_brisbane
+  57. k=8, lambda=0.5, mu=0.3, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=320.8s | ibm_brisbane
+  58. k=8, lambda=0.5, mu=0.5, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=272.5s | ibm_brisbane
+  59. k=8, lambda=0.5, mu=0.5, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=737.9s | ibm_brisbane
+  60. k=8, lambda=0.5, mu=0.5, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=192.9s | ibm_sherbrooke
+  61. k=8, lambda=0.5, mu=0.7, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=345.5s | ibm_brisbane
+  62. k=8, lambda=0.5, mu=0.7, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=212.4s | ibm_brisbane
+  63. k=8, lambda=0.5, mu=0.7, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=210.5s | ibm_brisbane
+  64. k=8, lambda=1.0, mu=0.3, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=197.1s | ibm_brisbane
+  65. k=8, lambda=1.0, mu=0.3, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=213.4s | ibm_brisbane
+  66. k=8, lambda=1.0, mu=0.3, gamma=0.15 | Acc=0.8709, F1=0.8616 | Time=233.2s | ibm_brisbane
+  67. k=8, lambda=1.0, mu=0.5, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=228.4s | ibm_brisbane
+  68. k=8, lambda=1.0, mu=0.5, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=193.5s | ibm_brisbane
+  69. k=8, lambda=1.0, mu=0.5, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=202.6s | ibm_brisbane
+  70. k=8, lambda=1.0, mu=0.7, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=202.4s | ibm_brisbane
+  71. k=8, lambda=1.0, mu=0.7, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=236.0s | ibm_brisbane
+  72. k=8, lambda=1.0, mu=0.7, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=206.2s | ibm_brisbane
+  73. k=8, lambda=1.5, mu=0.3, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=227.6s | ibm_brisbane
+  74. k=8, lambda=1.5, mu=0.3, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=697.1s | ibm_brisbane
+  75. k=8, lambda=1.5, mu=0.3, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=229.8s | ibm_brisbane
+  76. k=8, lambda=1.5, mu=0.5, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=196.7s | ibm_brisbane
+  77. k=8, lambda=1.5, mu=0.5, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=324.6s | ibm_brisbane
+  78. k=8, lambda=1.5, mu=0.5, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=209.9s | ibm_brisbane
+  79. k=8, lambda=1.5, mu=0.7, gamma=0.05 | Acc=0.8821, F1=0.8867 | Time=334.6s | ibm_brisbane
+  80. k=8, lambda=1.5, mu=0.7, gamma=0.1 | Acc=0.8821, F1=0.8867 | Time=1283.1s | ibm_brisbane
+  81. k=8, lambda=1.5, mu=0.7, gamma=0.15 | Acc=0.8821, F1=0.8867 | Time=203.1s | ibm_brisbane
+  82. k=9, lambda=0.5, mu=0.3, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=188.9s | ibm_brisbane
+  83. k=9, lambda=0.5, mu=0.3, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=246.4s | ibm_brisbane
+  84. k=9, lambda=0.5, mu=0.3, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=197.2s | ibm_brisbane
+  85. k=9, lambda=0.5, mu=0.5, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=205.4s | ibm_brisbane
+  86. k=9, lambda=0.5, mu=0.5, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=217.2s | ibm_brisbane
+  87. k=9, lambda=0.5, mu=0.5, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=313.7s | ibm_brisbane
+  88. k=9, lambda=0.5, mu=0.7, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=248.4s | ibm_brisbane
+  89. k=9, lambda=0.5, mu=0.7, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=520.0s | ibm_brisbane
+  90. k=9, lambda=0.5, mu=0.7, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=560.4s | ibm_brisbane
+  91. k=9, lambda=1.0, mu=0.3, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=189.3s | ibm_sherbrooke
+  92. k=9, lambda=1.0, mu=0.3, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=222.6s | ibm_sherbrooke
+  93. k=9, lambda=1.0, mu=0.3, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=191.4s | ibm_sherbrooke
+  94. k=9, lambda=1.0, mu=0.5, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=195.9s | ibm_sherbrooke
+  95. k=9, lambda=1.0, mu=0.5, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=842.5s | ibm_brisbane
+  96. k=9, lambda=1.0, mu=0.5, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=969.3s | ibm_brisbane
+  97. k=9, lambda=1.0, mu=0.7, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=968.0s | ibm_brisbane
+  98. k=9, lambda=1.0, mu=0.7, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=969.1s | ibm_brisbane
+  99. k=9, lambda=1.0, mu=0.7, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=967.2s | ibm_brisbane
+  100. k=9, lambda=1.5, mu=0.3, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=967.6s | ibm_brisbane
+  101. k=9, lambda=1.5, mu=0.3, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=966.7s | ibm_brisbane
+  102. k=9, lambda=1.5, mu=0.3, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=966.4s | ibm_brisbane
+  103. k=9, lambda=1.5, mu=0.5, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=967.1s | ibm_brisbane
+  104. k=9, lambda=1.5, mu=0.5, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=966.1s | ibm_brisbane
+  105. k=9, lambda=1.5, mu=0.5, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=967.8s | ibm_brisbane
+  106. k=9, lambda=1.5, mu=0.7, gamma=0.05 | Acc=0.9656, F1=0.9645 | Time=1866.5s | ibm_sherbrooke
+  107. k=9, lambda=1.5, mu=0.7, gamma=0.1 | Acc=0.9656, F1=0.9645 | Time=1864.2s | ibm_sherbrooke
+  108. k=9, lambda=1.5, mu=0.7, gamma=0.15 | Acc=0.9656, F1=0.9645 | Time=969.8s | ibm_brisbane
+  109. k=10, lambda=0.5, mu=0.3, gamma=0.05 | Acc=0.9731, F1=0.9724 | Time=977.2s | ibm_brisbane
+  110. k=10, lambda=0.5, mu=0.3, gamma=0.1 | Acc=0.9731, F1=0.9724 | Time=973.9s | ibm_brisbane
+  111. k=10, lambda=0.5, mu=0.3, gamma=0.15 | Acc=0.9731, F1=0.9724 | Time=975.6s | ibm_brisbane
+  112. k=10, lambda=0.5, mu=0.5, gamma=0.05 | Acc=0.9731, F1=0.9724 | Time=979.3s | ibm_brisbane
+  113. k=10, lambda=0.5, mu=0.5, gamma=0.1 | Acc=0.9731, F1=0.9724 | Time=21361.2s | ibm_sherbrooke
+  114. k=10, lambda=0.5, mu=0.5, gamma=0.15 | Acc=0.9731, F1=0.9724 | Time=339.9s | ibm_sherbrooke
+  115. k=10, lambda=0.5, mu=0.7, gamma=0.05 | Acc=0.9731, F1=0.9724 | Time=291.8s | ibm_sherbrooke

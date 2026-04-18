@@ -1,0 +1,2307 @@
+{
+  "current_params": [
+    10,
+    1.5,
+    0.7,
+    0.15
+  ],
+  "completed_combinations": [
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 15.78531704764532,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T02:54:06.375595",
+      "quantum_time": 145.2049901485443,
+      "mlp_time": 26.824395179748535,
+      "total_time": 195.16041111946106
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 31.534458488697613,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T02:57:14.181168",
+      "quantum_time": 140.05336332321167,
+      "mlp_time": 27.167508602142334,
+      "total_time": 187.8007049560547
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 47.10986980383492,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:11:20.954083",
+      "quantum_time": 146.71739840507507,
+      "mlp_time": 25.15002703666687,
+      "total_time": 189.89870715141296
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 15.667936514600047,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:14:35.391767",
+      "quantum_time": 141.3687572479248,
+      "mlp_time": 30.278827667236328,
+      "total_time": 194.43519401550293
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 31.528055344503333,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:17:45.086959",
+      "quantum_time": 139.26809358596802,
+      "mlp_time": 26.114405632019043,
+      "total_time": 189.69172143936157
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 47.08122143134499,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:21:00.488909",
+      "quantum_time": 144.40830183029175,
+      "mlp_time": 23.8775417804718,
+      "total_time": 195.3999147415161
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 14.441056253511045,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T05:24:35.796767",
+      "quantum_time": 143.27365016937256,
+      "mlp_time": 21.74313473701477,
+      "total_time": 215.3059058189392
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 31.53106442318125,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:27:46.620572",
+      "quantum_time": 139.71998739242554,
+      "mlp_time": 24.399916410446167,
+      "total_time": 190.82113909721375
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 43.192105264630534,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T05:30:48.166507",
+      "quantum_time": 139.30301237106323,
+      "mlp_time": 20.917235851287842,
+      "total_time": 181.54300498962402
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 15.92803384048634,
+      "accuracy": 0.896375,
+      "f1_score": 0.862293445969575,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:32:51.637724",
+      "quantum_time": 77.51804947853088,
+      "mlp_time": 21.829554557800293,
+      "total_time": 123.46926093101501
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 31.52654036883177,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:49:02.343548",
+      "quantum_time": 142.7245330810547,
+      "mlp_time": 25.297990083694458,
+      "total_time": 189.8287808895111
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 47.29856965413987,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:52:18.525080",
+      "quantum_time": 142.87184739112854,
+      "mlp_time": 29.215259075164795,
+      "total_time": 196.17910408973694
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 15.699558193300964,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:56:14.608172",
+      "quantum_time": 142.84816908836365,
+      "mlp_time": 32.506540298461914,
+      "total_time": 236.08109664916992
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 31.526956635330198,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T05:59:26.573827",
+      "quantum_time": 141.10191535949707,
+      "mlp_time": 26.43737554550171,
+      "total_time": 191.96317052841187
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 42.54320023382881,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T06:33:20.667022",
+      "quantum_time": 1877.8419888019562,
+      "mlp_time": 136.62653589248657,
+      "total_time": 2034.090265750885
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T07:07:57.005379",
+      "quantum_time": 1838.0442485809326,
+      "mlp_time": 115.00310254096985,
+      "total_time": 1978.8027522563934
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T07:41:00.690134",
+      "quantum_time": 1817.8542077541351,
+      "mlp_time": 139.6335380077362,
+      "total_time": 1983.679321050644
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T08:16:07.753457",
+      "quantum_time": 1823.729078054428,
+      "mlp_time": 137.18535470962524,
+      "total_time": 2107.0591855049133
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 14.310762674021827,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T08:28:54.567205",
+      "quantum_time": 488.40130066871643,
+      "mlp_time": 127.33859133720398,
+      "total_time": 766.7977919578552
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 28.49797892943726,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T08:34:24.695998",
+      "quantum_time": 147.93200874328613,
+      "mlp_time": 83.89798903465271,
+      "total_time": 330.1227707862854
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 43.20621616602164,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T08:39:01.999780",
+      "quantum_time": 145.0851640701294,
+      "mlp_time": 103.37413907051086,
+      "total_time": 277.29923462867737
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 14.518640180138068,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T08:54:38.353346",
+      "quantum_time": 763.3823664188385,
+      "mlp_time": 108.68758988380432,
+      "total_time": 936.3485243320465
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T09:17:13.466380",
+      "quantum_time": 943.8584787845612,
+      "mlp_time": 140.3602216243744,
+      "total_time": 1355.1055450439453
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T09:37:06.169825",
+      "quantum_time": 914.1740036010742,
+      "mlp_time": 139.01035404205322,
+      "total_time": 1192.6936926841736
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T10:10:55.157095",
+      "quantum_time": 1843.1671786308289,
+      "mlp_time": 136.43811655044556,
+      "total_time": 2028.974195241928
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T10:46:27.721308",
+      "quantum_time": 1819.1611232757568,
+      "mlp_time": 135.8515064716339,
+      "total_time": 2132.5492713451385
+    },
+    {
+      "params": {
+        "k": 6,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 47.39121340493858,
+      "accuracy": 0.84375,
+      "f1_score": 0.8452554178915466,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:14:28.257454",
+      "quantum_time": 151.67074060440063,
+      "mlp_time": 19.966561317443848,
+      "total_time": 254.885888338089
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.198654273930883,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:17:43.432491",
+      "quantum_time": 145.16010236740112,
+      "mlp_time": 27.603795528411865,
+      "total_time": 195.17095398902893
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 23.712215404226544,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T11:21:43.401179",
+      "quantum_time": 144.77317667007446,
+      "mlp_time": 36.44592046737671,
+      "total_time": 239.9657597541809
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 39.58153382502777,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:25:11.626741",
+      "quantum_time": 141.5004243850708,
+      "mlp_time": 36.276315450668335,
+      "total_time": 208.22262930870056
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.270956152444596,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:28:40.448460",
+      "quantum_time": 140.85621333122253,
+      "mlp_time": 35.77893662452698,
+      "total_time": 208.8184974193573
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 26.503366386634344,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:32:16.142375",
+      "quantum_time": 142.53990769386292,
+      "mlp_time": 27.74918007850647,
+      "total_time": 215.690336227417
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 39.87251696848031,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:35:42.263232",
+      "quantum_time": 141.63547658920288,
+      "mlp_time": 37.84247446060181,
+      "total_time": 206.11687350273132
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.397398193853107,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:38:17.040954",
+      "quantum_time": 79.10386157035828,
+      "mlp_time": 36.58086681365967,
+      "total_time": 154.774254322052
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T11:55:03.381669",
+      "quantum_time": 913.3708500862122,
+      "mlp_time": 36.52723002433777,
+      "total_time": 1006.3366854190826
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T12:11:38.889584",
+      "quantum_time": 913.4687745571136,
+      "mlp_time": 28.750316619873047,
+      "total_time": 995.5049409866333
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.299720498950572,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T12:29:13.784657",
+      "quantum_time": 153.8154275417328,
+      "mlp_time": 28.32516098022461,
+      "total_time": 241.89515137672424
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 24.198263480895033,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T12:34:42.484708",
+      "quantum_time": 269.37319135665894,
+      "mlp_time": 41.646515130996704,
+      "total_time": 328.69650888442993
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 39.18661425352114,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T12:38:11.258633",
+      "quantum_time": 145.24386596679688,
+      "mlp_time": 41.54729604721069,
+      "total_time": 208.76647019386292
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.337764262375742,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T12:42:29.625400",
+      "quantum_time": 139.52507615089417,
+      "mlp_time": 28.621114253997803,
+      "total_time": 258.36231207847595
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 24.0281555631638,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T12:45:49.768785",
+      "quantum_time": 143.12543511390686,
+      "mlp_time": 33.74720573425293,
+      "total_time": 200.13945817947388
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 39.69252009842838,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T12:53:27.948785",
+      "quantum_time": 301.47484946250916,
+      "mlp_time": 132.15450263023376,
+      "total_time": 458.1745254993439
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.478569570381989,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T13:17:53.025740",
+      "quantum_time": 1360.4415309429169,
+      "mlp_time": 74.50553965568542,
+      "total_time": 1465.0656180381775
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 26.7766665813269,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T13:21:24.404913",
+      "quantum_time": 82.94978737831116,
+      "mlp_time": 77.52113127708435,
+      "total_time": 211.3677682876587
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 35.48868739544058,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T17:51:45.534422",
+      "quantum_time": 156.98185563087463,
+      "mlp_time": 76.02698612213135,
+      "total_time": 250.67348980903625
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 13.290042364152793,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T17:56:10.259091",
+      "quantum_time": 172.5392289161682,
+      "mlp_time": 76.00418138504028,
+      "total_time": 264.71793365478516
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 26.387123381433884,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T18:00:42.347568",
+      "quantum_time": 176.86135935783386,
+      "mlp_time": 74.07309436798096,
+      "total_time": 272.0817964076996
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 39.53136909776184,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T18:06:32.883724",
+      "quantum_time": 248.2752285003662,
+      "mlp_time": 77.49430227279663,
+      "total_time": 350.53016328811646
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 12.185137285305691,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T18:10:34.683939",
+      "quantum_time": 149.47807717323303,
+      "mlp_time": 72.98026776313782,
+      "total_time": 241.79320740699768
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 23.03031971355003,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-22T18:14:44.414549",
+      "quantum_time": 148.61623334884644,
+      "mlp_time": 77.90986108779907,
+      "total_time": 249.72274136543274
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 39.616477891292654,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-22T18:19:05.839494",
+      "quantum_time": 166.04016852378845,
+      "mlp_time": 71.7235734462738,
+      "total_time": 261.4143183231354
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 11.944406936624587,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:03:15.815942",
+      "quantum_time": 153.41707801818848,
+      "mlp_time": 121.98359632492065,
+      "total_time": 291.8276512622833
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 24.070148737126438,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:11:25.204740",
+      "quantum_time": 386.22978687286377,
+      "mlp_time": 79.90490746498108,
+      "total_time": 489.3764748573303
+    },
+    {
+      "params": {
+        "k": 7,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 36.363994024518256,
+      "accuracy": 0.8986875,
+      "f1_score": 0.8846051812211781,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:15:47.172117",
+      "quantum_time": 145.08611226081848,
+      "mlp_time": 90.78297567367554,
+      "total_time": 261.9570188522339
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 9.717491211343694,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:20:35.859235",
+      "quantum_time": 144.9905276298523,
+      "mlp_time": 118.55051493644714,
+      "total_time": 288.67772698402405
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 19.23054457711308,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:25:22.208408",
+      "quantum_time": 150.7019910812378,
+      "mlp_time": 109.46891117095947,
+      "total_time": 286.3412387371063
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 28.451479402849152,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:30:42.998416",
+      "quantum_time": 185.5449914932251,
+      "mlp_time": 110.3549370765686,
+      "total_time": 320.7787444591522
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 9.754154180042466,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:35:15.496599",
+      "quantum_time": 147.37546467781067,
+      "mlp_time": 100.73648405075073,
+      "total_time": 272.48777532577515
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 19.427366272125848,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-23T23:47:33.358841",
+      "quantum_time": 607.3300671577454,
+      "mlp_time": 106.42340850830078,
+      "total_time": 737.8518743515015
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 28.98302826670198,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T12:18:03.093016",
+      "quantum_time": 476.61602330207825,
+      "mlp_time": 55.16667699813843,
+      "total_time": 549.1757578849792
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 9.624512373264421,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T12:24:26.922706",
+      "quantum_time": 297.139906167984,
+      "mlp_time": 60.67842626571655,
+      "total_time": 383.8226697444916
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 19.500719683124554,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T12:30:52.144818",
+      "quantum_time": 306.73657512664795,
+      "mlp_time": 52.32768154144287,
+      "total_time": 385.21457409858704
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 28.669777268496606,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T12:37:00.466182",
+      "quantum_time": 294.28104853630066,
+      "mlp_time": 49.137596130371094,
+      "total_time": 368.3158345222473
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 9.645523455950237,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T12:43:41.776641",
+      "quantum_time": 329.06512475013733,
+      "mlp_time": 48.520822525024414,
+      "total_time": 401.30445170402527
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 19.707867189248976,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T12:51:10.036758",
+      "quantum_time": 376.852552652359,
+      "mlp_time": 48.73206901550293,
+      "total_time": 448.2520868778229
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 31.762655251599398,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T12:58:22.288018",
+      "quantum_time": 367.42469477653503,
+      "mlp_time": 49.15020680427551,
+      "total_time": 432.2437512874603
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 10.94023320500853,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:10:05.893172",
+      "quantum_time": 633.1757147312164,
+      "mlp_time": 49.62593054771423,
+      "total_time": 703.5996272563934
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 21.24457737641771,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:27:55.841339",
+      "quantum_time": 395.4519462585449,
+      "mlp_time": 74.85325717926025,
+      "total_time": 488.374849319458
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 32.01334851628638,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:31:39.374774",
+      "quantum_time": 163.0703341960907,
+      "mlp_time": 38.49922513961792,
+      "total_time": 223.51759719848633
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 10.612450518348071,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:35:20.703341",
+      "quantum_time": 143.95697784423828,
+      "mlp_time": 52.40467023849487,
+      "total_time": 221.32394003868103
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 21.23625618550209,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:38:53.970125",
+      "quantum_time": 149.49050760269165,
+      "mlp_time": 38.68978142738342,
+      "total_time": 213.2606201171875
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 31.908408557622376,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:42:16.794506",
+      "quantum_time": 142.10700058937073,
+      "mlp_time": 38.14685034751892,
+      "total_time": 202.82037568092346
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 10.45052006166135,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:49:05.554733",
+      "quantum_time": 324.52611327171326,
+      "mlp_time": 62.88921403884888,
+      "total_time": 408.7562277317047
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 21.263555787034942,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T13:53:17.322628",
+      "quantum_time": 146.07045984268188,
+      "mlp_time": 81.06314373016357,
+      "total_time": 251.7594916820526
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 31.795605250309514,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:01:19.899789",
+      "quantum_time": 395.9993188381195,
+      "mlp_time": 63.7511420249939,
+      "total_time": 482.5637414455414
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 9.703259913853866,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T14:26:30.287771",
+      "quantum_time": 485.5230333805084,
+      "mlp_time": 47.53955125808716,
+      "total_time": 548.5003523826599
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 21.310314931216304,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:31:42.410955",
+      "quantum_time": 257.54420137405396,
+      "mlp_time": 38.28007650375366,
+      "total_time": 312.11774945259094
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 31.8606676471757,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:35:54.980478",
+      "quantum_time": 175.99453592300415,
+      "mlp_time": 56.07389712333679,
+      "total_time": 252.5630805492401
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 10.645409577755693,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:40:21.334851",
+      "quantum_time": 185.7264518737793,
+      "mlp_time": 57.76301908493042,
+      "total_time": 266.3494429588318
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 21.34425252752507,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:44:01.326617",
+      "quantum_time": 146.96538376808167,
+      "mlp_time": 50.126282930374146,
+      "total_time": 219.98634123802185
+    },
+    {
+      "params": {
+        "k": 8,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 31.80322056922453,
+      "accuracy": 0.882125,
+      "f1_score": 0.886742678675934,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:47:19.434855",
+      "quantum_time": 138.56518363952637,
+      "mlp_time": 37.635420083999634,
+      "total_time": 198.10334134101868
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 8.23399841255061,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T14:50:41.360083",
+      "quantum_time": 140.7902398109436,
+      "mlp_time": 38.11114811897278,
+      "total_time": 201.91978240013123
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 16.31639750744631,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:01:18.754259",
+      "quantum_time": 144.89533591270447,
+      "mlp_time": 31.594037532806396,
+      "total_time": 192.3391923904419
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 24.460991140944692,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:04:50.586091",
+      "quantum_time": 150.0793924331665,
+      "mlp_time": 42.36907076835632,
+      "total_time": 211.82631993293762
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 8.246427426356867,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:08:42.962159",
+      "quantum_time": 159.3880431652069,
+      "mlp_time": 49.11527156829834,
+      "total_time": 232.37021565437317
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 16.340162778443837,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:12:33.629851",
+      "quantum_time": 145.47797346115112,
+      "mlp_time": 61.235750675201416,
+      "total_time": 230.66119980812073
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 24.581290700661498,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:17:11.541952",
+      "quantum_time": 192.0343372821808,
+      "mlp_time": 59.653749227523804,
+      "total_time": 277.8996322154999
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 8.26995231861125,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:20:59.448429",
+      "quantum_time": 143.52661657333374,
+      "mlp_time": 62.69780874252319,
+      "total_time": 227.8968870639801
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 16.401252619325522,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:24:39.741781",
+      "quantum_time": 140.7417347431183,
+      "mlp_time": 55.52960014343262,
+      "total_time": 220.28158235549927
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 24.658463730202094,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:33:02.062670",
+      "quantum_time": 188.9781527519226,
+      "mlp_time": 30.920203685760498,
+      "total_time": 235.6715953350067
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 7.401903148438833,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T15:36:31.130771",
+      "quantum_time": 151.21846747398376,
+      "mlp_time": 41.35731220245361,
+      "total_time": 209.06170535087585
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 14.614305985516705,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T15:41:18.759837",
+      "quantum_time": 226.41244983673096,
+      "mlp_time": 40.85325503349304,
+      "total_time": 287.6241502761841
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 21.94094200684479,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T15:45:58.761038",
+      "quantum_time": 214.4537239074707,
+      "mlp_time": 42.28681492805481,
+      "total_time": 279.99376153945923
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 7.327183784395616,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T15:49:56.981432",
+      "quantum_time": 173.6382360458374,
+      "mlp_time": 40.91571092605591,
+      "total_time": 238.21291089057922
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 14.448024634895274,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T15:55:28.412025",
+      "quantum_time": 267.1019380092621,
+      "mlp_time": 41.05883002281189,
+      "total_time": 331.4231610298157
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 24.591389022871837,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T15:59:03.109717",
+      "quantum_time": 151.8554060459137,
+      "mlp_time": 42.84221410751343,
+      "total_time": 214.6917848587036
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 7.5239671295977075,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:07:01.716036",
+      "quantum_time": 412.47461104393005,
+      "mlp_time": 43.07391309738159,
+      "total_time": 478.59886145591736
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 15.134410678131854,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:23:25.971067",
+      "quantum_time": 222.40053033828735,
+      "mlp_time": 30.87530827522278,
+      "total_time": 269.6990690231323
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 22.230483543746733,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:27:20.980285",
+      "quantum_time": 170.36602306365967,
+      "mlp_time": 42.42566251754761,
+      "total_time": 235.0017285346985
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 7.36053549435377,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:31:00.789394",
+      "quantum_time": 154.83401775360107,
+      "mlp_time": 41.95377206802368,
+      "total_time": 219.8027102947235
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 14.48963263510439,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:36:36.531375",
+      "quantum_time": 269.78986167907715,
+      "mlp_time": 42.429518699645996,
+      "total_time": 335.73360562324524
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 22.065810629703666,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:43:21.574966",
+      "quantum_time": 338.21871423721313,
+      "mlp_time": 42.65616297721863,
+      "total_time": 405.0357789993286
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 7.216340281915854,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:46:50.886836",
+      "quantum_time": 142.10964226722717,
+      "mlp_time": 42.56186842918396,
+      "total_time": 209.30250144004822
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 14.23630298476783,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:50:49.627826",
+      "quantum_time": 161.9740481376648,
+      "mlp_time": 51.32270550727844,
+      "total_time": 238.73355960845947
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 21.315627010722295,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T16:56:23.126432",
+      "quantum_time": 155.6933069229126,
+      "mlp_time": 30.38232421875,
+      "total_time": 204.0977659225464
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 7.177874981622076,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T17:00:50.702079",
+      "quantum_time": 205.86464428901672,
+      "mlp_time": 42.37909746170044,
+      "total_time": 267.5682518482208
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 14.407833424779525,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T17:04:15.269768",
+      "quantum_time": 142.40463018417358,
+      "mlp_time": 39.556013107299805,
+      "total_time": 204.55885124206543
+    },
+    {
+      "params": {
+        "k": 9,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 21.518894688556777,
+      "accuracy": 0.965625,
+      "f1_score": 0.9645450007111901,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T17:07:29.652674",
+      "quantum_time": 141.64386701583862,
+      "mlp_time": 30.736328601837158,
+      "total_time": 194.376455783844
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 4.822364339667167,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T17:11:17.509290",
+      "quantum_time": 153.43706607818604,
+      "mlp_time": 50.941834926605225,
+      "total_time": 227.85076808929443
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 10.005626009786582,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:06:55.366175",
+      "quantum_time": 140.69991445541382,
+      "mlp_time": 50.72477459907532,
+      "total_time": 220.31956911087036
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 14.29420045454476,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:10:38.742670",
+      "quantum_time": 146.41717529296875,
+      "mlp_time": 51.87428545951843,
+      "total_time": 223.36964416503906
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 5.000241148762673,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:21:00.187553",
+      "quantum_time": 469.2599971294403,
+      "mlp_time": 36.02351427078247,
+      "total_time": 521.9263579845428
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 9.765386003670102,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:26:06.084883",
+      "quantum_time": 249.0746042728424,
+      "mlp_time": 36.56459140777588,
+      "total_time": 305.8893315792084
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 15.036284617096944,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:31:12.576674",
+      "quantum_time": 248.419171333313,
+      "mlp_time": 35.21749448776245,
+      "total_time": 306.48478984832764
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 5.022030137216437,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:38:13.355917",
+      "quantum_time": 350.1043174266815,
+      "mlp_time": 49.11334729194641,
+      "total_time": 420.76999521255493
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 9.357050772404463,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:42:44.945705",
+      "quantum_time": 197.27144265174866,
+      "mlp_time": 50.6098849773407,
+      "total_time": 271.5837867259979
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 0.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 14.369145343966467,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:46:23.575809",
+      "quantum_time": 145.4033374786377,
+      "mlp_time": 50.599733114242554,
+      "total_time": 218.6241102218628
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 4.628543453696555,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:50:50.990040",
+      "quantum_time": 143.6213128566742,
+      "mlp_time": 38.646047592163086,
+      "total_time": 199.78207731246948
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 9.47607321951587,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T18:55:57.180006",
+      "quantum_time": 237.43954157829285,
+      "mlp_time": 47.671584367752075,
+      "total_time": 306.1819598674774
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 17.29708076169348,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T19:01:44.259820",
+      "quantum_time": 280.23217034339905,
+      "mlp_time": 50.54666209220886,
+      "total_time": 347.07257652282715
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 4.659957213199199,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T19:05:13.504874",
+      "quantum_time": 138.0225784778595,
+      "mlp_time": 46.80611729621887,
+      "total_time": 209.2377905845642
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 9.7545605073223,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T19:23:12.736077",
+      "quantum_time": 1008.9348826408386,
+      "mlp_time": 48.45683026313782,
+      "total_time": 1079.2222075462341
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 17.230145366663514,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T19:26:42.681558",
+      "quantum_time": 138.40832328796387,
+      "mlp_time": 50.05742883682251,
+      "total_time": 209.9384891986847
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 5.877902239825184,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T19:30:07.147607",
+      "quantum_time": 140.41967916488647,
+      "mlp_time": 41.43700647354126,
+      "total_time": 204.4578082561493
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_sherbrooke",
+      "timestamp": "2025-06-27T19:46:23.920077",
+      "quantum_time": 913.5761773586273,
+      "mlp_time": 40.01951336860657,
+      "total_time": 976.7664642333984
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.0,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T20:17:39.045363",
+      "quantum_time": 1811.7660326957703,
+      "mlp_time": 39.95879554748535,
+      "total_time": 1875.1140582561493
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.05
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T20:48:51.514195",
+      "quantum_time": 1811.194173336029,
+      "mlp_time": 38.55967450141907,
+      "total_time": 1872.4615268707275
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T21:20:03.869419",
+      "quantum_time": 1811.2601737976074,
+      "mlp_time": 39.57740783691406,
+      "total_time": 1872.3452305793762
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.3,
+        "gamma": 0.15
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T21:51:16.213599",
+      "quantum_time": 1811.4933869838715,
+      "mlp_time": 38.283864974975586,
+      "total_time": 1872.3361797332764
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.05
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T22:22:31.129779",
+      "quantum_time": 1812.3108246326447,
+      "mlp_time": 39.622188568115234,
+      "total_time": 1874.9081797599792
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T22:53:47.486334",
+      "quantum_time": 1812.1182754039764,
+      "mlp_time": 39.674203872680664,
+      "total_time": 1876.348554611206
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.5,
+        "gamma": 0.15
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T23:25:01.351573",
+      "quantum_time": 1812.2265839576721,
+      "mlp_time": 39.3355233669281,
+      "total_time": 1873.8562281131744
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.05
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-27T23:56:16.268140",
+      "quantum_time": 1813.0617380142212,
+      "mlp_time": 40.73327350616455,
+      "total_time": 1874.909574508667
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.1
+      },
+      "quantum_cost": 1000000.0,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-28T00:27:29.519563",
+      "quantum_time": 1811.5377666950226,
+      "mlp_time": 39.12778902053833,
+      "total_time": 1873.2450907230377
+    },
+    {
+      "params": {
+        "k": 10,
+        "lambda": 1.5,
+        "mu": 0.7,
+        "gamma": 0.15
+      },
+      "quantum_cost": 14.929889577455418,
+      "accuracy": 0.9730625,
+      "f1_score": 0.9723817976434654,
+      "selected_features": "Power_factor,Va_rollstd,dIa_dt,is_zero_Iref,Ia_rollstd,dVa_dt,dVb_dt,Ic_rollstd,Power_VcIc,Vb_rollstd",
+      "backend": "ibm_brisbane",
+      "timestamp": "2025-06-28T00:43:57.518253",
+      "quantum_time": 227.55401968955994,
+      "mlp_time": 43.58957242965698,
+      "total_time": 287.7057285308838
+    }
+  ],
+  "timestamp": "2025-06-28T00:43:57.521139",
+  "total_iterations": 0
+}
